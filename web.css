@@ -71,12 +71,7 @@ ul:hover{
 .font{
     font-size: 50px;
 }
-/* 
-nam
-nam
-nam
-nam
-nam
-nam
-nam
-nam */
+.fix{
+    scrollbar-darkshadow-color: forestgreen;
+    background-attachment: fixed;
+}
