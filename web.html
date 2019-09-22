@@ -11,23 +11,30 @@
     <script src="https://kit.fontawesome.com/5fa8686246.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./web.css">
 </head>
+<script src=" ./jquery-3.4.1.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 <body>
-    <div class="block1">
+    <div class="block1" id="header">
         <img src="./web/--photo.jpg" alt="">
         <div class="heading nb d-flex justify-content-between fixed-top text-white ">
             <h2 class="text1 fs container col-md-6">BLU<font color="aqua">E</font>ASY</h2>
-            <div class="bar d-flex justify-content-around container  ">
-                <ul class="container">HOME</ul>
-                <ul class="container">SERVICE</ul>
-                <ul class="container">FEATURES</ul>
-                <ul class="container">PORTFOLIO</ul>
-                <ul class="container">CONTACT</ul>
+            <div class="bar bar-ul cursor d-flex menu justify-content-around container  ">
+                <ul class="container "> <a href="">HOME</a> </ul>
+                <ul class="container"><a href="#service">SERVICE</a></ul>
+                <ul class="container"><a href="#section">FEATURES</a></ul>
+                <ul class="container"><a href="#portfolio">PORTFOLIO</a></ul>
+                <ul class="container"><a href="#contact">CONTACT</a></ul>
             </div>
         </div>
         <h3 class=" centered container bg p-2 text-white">"I'M LOOKING FOR THE UNEXPECTED</h3>
     </div>
-    <div class="block2">
+    <div class="block2 service scroll" id="service" >
         <h2 class="text2 container col-md-7 text-white pt-5">SERVICE</h2>
         <div class="container d-flex justify-content-between pt-5 col-md-6  ">
             <img class="" src="./web/---coffee-copy.png" alt="">
@@ -44,94 +51,190 @@
         <div class=" mx-auto pt-4 container d-flex justify-content-between col-md-7 text-white ">
             <p class="container">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, blanditiis possimus
                 delectus
-                corporis obcaecati autem ducimus adipisci quia assumenda accusamus?</p>
+                corporis obca</p>
             <p class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla amet quidem minima
                 explicabo
-                laborum neque rerum placeat? Rem, distinctio repellat.</p>
+                laborum nequeat.</p>
             <p class="container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil voluptate beatae
                 doloribus
-                quae praesentium eveniet ipsam, eaque eum officia.</p>
+                quae praese.</p>
             <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quia soluta culpa odit
                 excepturi
                 tempora nisi provident harum molestias eligendi!</p>
         </div>
     </div>
-    <div class="block3">
-        <div class="container col-md-7 d-flex justify-content-between  pt-5">
-            <h2>PORTFOLIO</h2>
-            <div class="container d-flex justify-content-between col-md-6 mr-0 pl-5">
-                <ul class="container">ALL</ul>
-                <ul class="container">PANORAMA</ul>
-                <ul class="container">PORTRAITS</ul>
-                <ul class="container">MARCO</ul>
-                <ul class="container">JOURNAL</ul>
-            </div>
-
-        </div>
-        <div class="row container-fluid col-md-7 d-flex justify-content-between  pt-5 mx-auto">
-
-            <div class="img-thumbnail col-sm-3 pb-4 "><img src="./web/--portfolio-photo.jpg" alt="width=" 200"
-                    height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo1.jpg" alt="width="
-                    200" height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo2.jpg" alt="width="
-                    200" height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo1.jpg" alt="width="
-                    200" height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo4.jpg" alt="width="
-                    200" height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo6.jpg" alt="width="
-                    200" height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo7.jpg" alt="width="
-                    200" height="200""></div>
-                <div class=" img-thumbnail col-sm-3 "><img src=" ./web/--portfolio-photo8.jpg" alt="width="
-                    200" height="200""></div>
-            </div>
-    </div>
-    <div class=" block4">
-                <div class="container col-md-7 d-flex justify-content-between  pt-5">
-                    <h2>JUST DEFAULT SECTION</h2>
+    <div class="block3 portfolio scroll w-100" id="portfolio">
+        <div class="container">
+            <div class="portfolio-header d-flex align-content-center justify-content-start">
+                <div class="portfolio-header-left w-50 col-md-6">
+                    <h2>PORTFOLIO</h2>
+                    <hr width="100px">
                 </div>
-                <div class="container col-md-7 d-flex justify-content-between  pt-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam, autem unde enim animi ad
-                        cupiditate? Laudantium, blanditiis possimus nihil qui dolore porro officia nostrum! Iure atque
-                        fugiat maiores, nam voluptates ducimus amet ex exercitationem? Ullam unde atque, nemo a nihil at
-                        illo itaque accusamus perspiciatis sed repudiandae, eaque eveniet!</p>
-
-                    <div class="container col-sm-3 col-md-6 pl-5">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8DObN_3ha6M" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="portfolio-header-right w-50">
+                    <ul class="portfolio-ul w-100 d-flex align-content-center justify-content-around">
+                        <li class="portfolio-li">
+                            <a href="#">ALL</a>
+                        </li>
+                        <li class="portfolio-li">
+                            <a href="#">PANORAMAS</a>
+                        </li>
+                        <li class="portfolio-li">
+                            <a href="#">PORTRAITS</a>
+                        </li>
+                        <li class="portfolio-li">
+                            <a href="#">MACRO</a>
+                        </li>
+                        <li class="portfolio-li">
+                            <a href="#">JOURNAL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="portfolio-content d-flex flex-wrap justify-content-around align-content-around flex-row">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo1.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo2.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo4.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo6.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo7.jpg" class="img-fluid w-100">
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<img src="./web/--portfolio-photo1.jpg" class="img-fluid w-100">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+        <div class="block4 section scroll" id="section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-header-left col-lg-6">
+                        <h2 >JUST DEFAULT SECTION</h2>
+                        <hr width="100px" size="2px">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed eum repellat dicta, animi facere! Quo possimus iste cum nulla.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed eum repellat dicta, animi facere! Quo possimus iste cum nulla.</p>
+                        <button type="button" class="btn btn-dark b">Visit Me!</button>
+                    </div>
+                    <div class="section-header-right col-lg-6">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DvE7O3bLQgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="container b col-md-7 d-flex   pt-5">Visit Me</div>
             </div>
-            <div class="block5">
-                <div class="container col-md-7 d-flex justify-content-between   pt-5 text-white">
-                    <p class="font">TWITTER</p>
-                    <i class="fab fa-twitter font "></i>
-                </div>
-                <div class="container col-md-7 d-flex justify-content-between   pt-5 text-white">
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint consequatur enim ullam quaerat, accusantium sequi facere quod, illum voluptatem cupiditate quos corrupti eaque doloremque ipsa modi facilis nisi tempora unde rem ut sunt assumenda ad fuga! Recusandae omnis impedit placeat..</h5>
-                </div>
+        </div>
+        
+    </div>
+    <div class="block5">
+        <div class="container col-md-7 d-flex justify-content-between pt-5 text-white">
+            <p class="font">TWITTER</p>
+            <i class="fab fa-twitter font "></i>
+        </div>
+        <div class="container col-md-7 d-flex justify-content-between   pt-5 text-white">
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint consequatur enim ullam quaerat,
+                accusantium sequi facere quod, illum voluptatem cupiditate quos corrupti eaque doloremque ipsa modi
+                facilis nisi tempora unde rem ut sunt assumenda ad fuga! Recusandae omnis impedit placeat..</h5>
+        </div>
 
+    </div>
+    <div class="block6 ">
+        <div class="who w-100" id="who">
+            <div class="container">
+                <div class="who-header col-md-7 ">
+                    <h2>WHO IS JOHN DOE?</h2>
+                    <hr width="50px">
+                </div>
+                <div class="who-content">
+                    <div class="row">
+                        <div class="who-content-left col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, delectus iusto
+                                vitae aliquid, placeat architecto suscipit ipsa quo voluptatem sapiente.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, delectus iusto
+                                vitae aliquid, placeat architecto suscipit ipsa quo voluptatem sapiente.</p>
+                        </div>
+                        <div class="who-content-right col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio natus, non autem
+                                atque eius repudiandae tempora eaque assumenda laudantium blanditiis.</p>
+                            <div class="social d-flex justify-content-around">
+                                <p><i class="fab fa-twitter cursor"></i></p>
+                                <p><i class="fab fa-google cursor"></i></p>
+                                <p><i class="fab fa-instagram cursor"></i></p>
+                                <p><i class="fab fa-facebook cursor"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
 
+    <div class="block7">
+        <div class="container col-md-7 d-flex justify-content-between pt-5 ">
+            <p class="font">TESTIMONIALS</p>
+            <i class="fas fa-quote-right font"></i>
 
+        </div>
+        <div class="container col-md-7 d-flex justify-content-between pt-5 ">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint consequatur enim ullam quaerat,
+                accusantium sequi facere quod, illum volupti eaque doloremque ipsa modi
+                .</p>
+        </div>
+        <div class="block8 scroll" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>CONTACT</h1>
+                        <p>Full name</p>
+                        <input class="input-contact" type="text">
+                        <p>Email</p>
+                        <input class="input-contact" type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod repellendus iure temporibus
+                            illo beatae, sit eligendi nihil sint eum amet porro obcaecati, ut magni dolore corporis,
+                            accusantium ipsam. Repudiandae, nemo.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus quibusdam
+                            tempore, nemo a eveniet fugiat aut, vero veniam, deleniti repellat molestiae veritatis velit
+                            sunt. Id ullam repudiandae saepe tempora.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Message</p>
+                        <textarea name="" id="box" rows="5"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button class="btn btn-primary btn-message">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block9 contact">
+            <div class="contact-bar justify-space align-items">
+                <div class="contact-bar justify-space align-items text-white">
+                    <div class="nav-contact-bar justify-space align-items text-white">
+                        <ul class="container cursor">Home</ul>
+                        <ul class="container cursor">Profile</ul>
+                        <ul class="container cursor">Service</ul>
+                        <ul class="container cursor">Contact</ul>
+                    </div>
 
-
-
-
-
-
-
-            <script src=" ./jquery-3.4.1.js"> </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous"></script>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="./web.js"></script>
 
